@@ -93,7 +93,7 @@ body {
 .abtBody {
     display: flex;
     padding-right: 50px;
-    font-size: inherit;
+    font-size: 23px;
     padding-left: 50px;
     margin-top: 60px;
 }
@@ -107,6 +107,6 @@ body {
 
 /* ContactCard */
 
-.platName {
+.platName, a:link {
     text-decoration: none;
 }
