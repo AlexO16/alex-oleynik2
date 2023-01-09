@@ -8,8 +8,9 @@ import Tech from "./pages/Tech";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact"
 import { useState } from 'react';
-import "../src/style.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./style.css";
+
 
 function App() {
   const [currTab, setCurrTab] = useState("Home")
