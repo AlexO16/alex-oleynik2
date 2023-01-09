@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap"
 
 function PackagesCard({ item }) {
     return (
-        <Card style={{ justify: "center", width: "225px"}}>
+        <Card className="border-0" style={{ justify: "center", width: "225px", background: "whitesmoke"}}>
             {item.icon}
             <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>{item.skill}</Card.Title>
