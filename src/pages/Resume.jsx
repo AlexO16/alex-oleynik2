@@ -8,7 +8,7 @@ const Resume = () => {
     ];
     return (
         <Container fluid>
-            <h1 className="text-center fw-bold">Resume</h1>
+            <h1 className="text-center fw-bold" style={{ paddingTop: 15 }}>Resume</h1>
             <Container fluid style={{ justify: "center", width: "80%" }} >
                 <Row className="justify-content-center m-4">
                     <DocViewer documents={docs} pluginRenderers={DocViewerRenderers} />

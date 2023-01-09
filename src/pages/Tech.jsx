@@ -6,7 +6,7 @@ import alexInfo from "../alexInfo"
 
 const Tech = () => {
     return (
-        <Container className="tech">My Tech Stack
+        <Container className="fw-bold text-center" style={{ fontSize: 35, paddingTop: 15, paddingBottom: 10 }}>My Tech Stack
             <Container fluid style={{ justify: "center" }}>
                 <h1 text-center>Languages</h1>
                 <Row style={{ content: "center" }}>

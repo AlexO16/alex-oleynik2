@@ -6,7 +6,7 @@ function ContactCard({ item }) {
     <Card className="m-4 text-black border-0" style={{ vw: "100%" }}>
       {item.icon}
       <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>{item.platformName}</Card.Title>
+                <Card.Title className="platName" style={{ textAlign: "center" }}>{item.platformName}</Card.Title>
             </Card.Body>
     </Card>
     </a>

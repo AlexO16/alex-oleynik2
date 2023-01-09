@@ -5,7 +5,7 @@ import alexInfo from "../alexInfo"
 function Projects() {
     return (
         <Container fluid>
-            <h1 className="fw-bold text-center">Projects</h1>
+            <h1 className="fw-bold text-center" style={{ paddingTop: 15 }}>Projects</h1>
             <Container className="d-grid" >
                 <Row className="justify-content-center m-4">
                     {alexInfo.projects && alexInfo.projects.map((item) => (<ProjectCard item={item} key={item.project} />

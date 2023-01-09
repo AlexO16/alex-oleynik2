@@ -5,7 +5,7 @@ import alexInfo from "../alexInfo";
 function Contact() {
     return (
         <Container>
-            <h1 className="text-center fw-bold">Contact Me!</h1>
+            <h1 className="text-center fw-bold" style={{ paddingTop: 15 }}>Contact Me!</h1>
             <Container className="d-grid" style={{ justify: "center" }}>
                 <Row className="justify-content-center m-4">
                     {alexInfo.links && alexInfo.links.map((item) => (<ContactCard item={item} key={item.platformName} />))}
