@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alex-oleynik2/static/css/main.3ed89bb0.css",
-    "main.js": "/alex-oleynik2/static/js/main.5f84ccf2.js",
+    "main.js": "/alex-oleynik2/static/js/main.5399f0b7.js",
     "static/js/787.68f50688.chunk.js": "/alex-oleynik2/static/js/787.68f50688.chunk.js",
     "static/media/readmeGen.png": "/alex-oleynik2/static/media/readmeGen.5fa166f2679747782a86.png",
     "static/media/resume.png": "/alex-oleynik2/static/media/resume.3af79c0d249869280d9d.png",
@@ -14,11 +14,11 @@
     "static/media/tracker.png": "/alex-oleynik2/static/media/tracker.c97bd57ecbe04867d601.png",
     "index.html": "/alex-oleynik2/index.html",
     "main.3ed89bb0.css.map": "/alex-oleynik2/static/css/main.3ed89bb0.css.map",
-    "main.5f84ccf2.js.map": "/alex-oleynik2/static/js/main.5f84ccf2.js.map",
+    "main.5399f0b7.js.map": "/alex-oleynik2/static/js/main.5399f0b7.js.map",
     "787.68f50688.chunk.js.map": "/alex-oleynik2/static/js/787.68f50688.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ed89bb0.css",
-    "static/js/main.5f84ccf2.js"
+    "static/js/main.5399f0b7.js"
   ]
 }
