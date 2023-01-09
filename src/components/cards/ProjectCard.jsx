@@ -6,7 +6,7 @@ function ProjectCard({ item }) {
             <Card.Body className="text-center">
                 <Card.Title className="m-4 text-center">{item.project}</Card.Title>
 
-                <Card.Img img-fluid src={require(`../../../public/img/${item.projectImg}`)} alt="project img" />
+                <Card.Img className="img-fluid" src={require(`../../../public/img/${item.projectImg}`)} alt="project img" />
 
                 <Card.Text style={{ textAlign: "center" }}>{item.description}</Card.Text>
 

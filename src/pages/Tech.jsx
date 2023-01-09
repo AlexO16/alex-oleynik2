@@ -8,15 +8,15 @@ const Tech = () => {
     return (
         <Container className="fw-bold text-center" style={{ fontSize: 35, paddingTop: 15, paddingBottom: 10 }}>My Tech Stack
             <Container fluid style={{ justify: "center" }}>
-                <h1 text-center style={{ fontSize: 35, paddingTop: 35, paddingBottom: 30 }}>Languages</h1>
+                <h1 className="text-center" style={{ fontSize: 35, paddingTop: 35, paddingBottom: 30 }}>Languages</h1>
                 <Row className="row justify-content-center justify-content-between">
                     {alexInfo.languages && alexInfo.languages.map((item) => (<Language item={item} key={item.skill} />))}
                 </Row>
-                <h1 text-center style={{ fontSize: 35, paddingTop: 35, paddingBottom: 30 }}>Node Packages</h1>
+                <h1 className="text-center" style={{ fontSize: 35, paddingTop: 35, paddingBottom: 30 }}>Node Packages</h1>
                 <Row className="row justify-content-center justify-content-between">
                     {alexInfo.packages && alexInfo.packages.map((item) => (<Packages item={item} key={item.skill} />))}
                 </Row>
-                <h1 text-center style={{ fontSize: 35, paddingTop: 35, paddingBottom: 30 }}>Applications</h1>
+                <h1 className="text-center" style={{ fontSize: 35, paddingTop: 35, paddingBottom: 30 }}>Applications</h1>
                 <Row className="row justify-content-center justify-content-between">
                     {alexInfo.applications && alexInfo.applications.map((item) => (<Application item={item} key={item.skill} />))}
                 </Row>
