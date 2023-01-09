@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Navbar currTab={currTab} setCurrTab={setCurrTab} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/alex-oleynik2" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Projects />} />
           <Route path="/tech" element={<Tech />} />
