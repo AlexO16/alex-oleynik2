@@ -5,7 +5,7 @@ const Navbar = (props) => {
     return (
         <nav className="nav">
 
-            <Link to="/" onClick={() => props.setCurrTab("Home")} className="site-title">Alex Oleynik</Link>
+            <Link to="/alex-oleynik2" onClick={() => props.setCurrTab("Home")} className="site-title">Alex Oleynik</Link>
             <ul>
                 <li className="link">
                     <Link onClick={() => props.setCurrTab("About")} className={props.currTab === 'About' ? 'nav-link active' : 'nav-link'} to="/about">About Me</Link>
